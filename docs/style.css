@@ -1,0 +1,172 @@
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.icon-nav {
+    height: 27px;
+    width: 27px;
+}
+
+.clear {
+    clear:both;
+}
+
+/*
+background-color: rgb(177, 177, 177);
+*/
+
+
+section.centerpage {
+    padding: 20px 0;
+    background: url(bgdyllan.jpg) no-repeat center;
+    background-size: cover;
+    background-color: rgba(177, 177, 177, 0.5);
+}
+
+section.centerpage > .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info{
+    width: 65%;
+    padding: 60px 0;
+}
+
+.info h1 {
+    text-align: center;
+}
+
+/*.circle {
+    background-size: cover;
+    background-color: #ddd;
+    border-radius: 100%;
+    height: 250px;
+    object-fit: cover;
+    width: 250px;
+    border: 2px solid black;
+}*/
+
+.circle{
+    width: 35%;
+    padding-top: 5px;
+}
+
+.img-avatar {
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-size: 100% 100%;
+}
+
+.info p, h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.info h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+section.midpage {
+    padding: 25px 0;
+    background: rgb(201, 201, 201);
+}
+
+section.midpage > .container {
+    margin-bottom: 20px;
+}
+
+.infomid {
+    padding: 0 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.infomid h5 {
+    font-family: cursive
+}
+
+/*Rodapé pagina 1*/
+footer.rodapepage {
+    padding: 25px 0;
+    background: rgb(77, 77, 77);
+}
+
+.w33 {
+    width: 33.33%;
+    float: left;
+    padding-left: 50px;
+}
+
+.w33 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+
+.w33 p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.w33 a {
+    text-decoration: none;
+    color: white;
+}
+
+.w33 a:hover {
+    color: black;
+}
+
+footer.rodapedireitos {
+    padding: 10px 0;
+    background: black;
+}
+
+.direitos {
+    text-align: center;
+    color: white;
+}
+
+.direitos h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+/*Ajuste responsivo abaixo*/
+
+@media screen and (max-width:1050px){
+
+ .circle,.info,.circle_fps{
+     width: 100%;
+     text-align: center;
+ }
+
+.w33 {
+    width: 100%;
+    text-align: center;
+}
+
+.infomid h3 {
+    text-align: center;
+}
+
+.img-avatar {
+    margin-top: 25px;
+}
+
+.w33_fps {
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width:365px){
+    .img-avatar{
+        width: 250px;
+        height: 250px;
+    }
+}
